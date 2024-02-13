@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    
+    
+    box-sizing: border-box;
+   
+    background-color: black;
+    color: brown;   
+}
+.secao {
+    height: 100%;
+    width: 615px;
+    font-family:  'Bebas Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.titulo-destacado {
+    font-family: 'Cute Font', sans-serif;
+    font-size: 36px;   
+}
+.conteudo {
+    
+    padding: 5% 20%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+strong { 
+    color: rgb(228, 203, 203);
+
+}.paragrafo {
+    font-size: 36px;
+}
+.botao {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lins {
+    /*background-color: rgb(108, 60, 153);*/
+    color: rgb(104, 47, 47);
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #22D4FD;
+    font-size: 20px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-weight: 600;
+}
+img {
+    border-radius: 15px;
+}
+.sub {
+    font-family:  'Bebas Neue', sans-serif;
+    color: aliceblue;
+}
+.lins:hover {
+    background-color: #494040;
+}
+.partedebaixo {
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+
+    font-size: 25px;
+    text-align: center;
+    background-color: #22D4FD;
+    color: black;
+
+}
+.partedecima {
+    display: flex;
+    gap: 40px;
+
+}
+
+.oioi{
+    color: #22D4FD;
+    font-size: 24px;
+    text-decoration: none;
+}
+.cabeça {
+    padding: 2% 0% 0% 20%;
+}
