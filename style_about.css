@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color:antiquewhite
+}
+.titulo{
+    padding: 5% 0% 0% 20%;
+
+}
+.cabeçario__a{
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+.cabeçario{
+    padding: 5% 0% 0% 20%;
+}
+.cabeçario__nav{
+    display: flex;
+    gap: 40px;
+}
